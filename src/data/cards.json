@@ -1,0 +1,777 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "uz": "Hashamatli Parda",
+      "ru": "Роскошная Штора",
+      "en": "Luxury Curtain",
+      "tr": "Lüks Perde"
+    },
+    "description": {
+      "uz": "Zamonaviy uslubdagi hashamatli parda",
+      "ru": "Роскошная штора в современном стиле",
+      "en": "Modern style luxury curtain",
+      "tr": "Modern tarzda lüks perde"
+    },
+    "fullDescription": {
+      "uz": "Bu hashamatli parda zamonaviy uy dizayni uchun mukammal. Yuqori sifatli materialdan tayyorlangan va uzoq muddat xizmat qiladi.",
+      "ru": "Эта роскошная штора идеально подходит для современного дизайна дома. Изготовлена из высококачественных материалов и прослужит долго.",
+      "en": "This luxury curtain is perfect for modern home design. Made from high-quality materials and will serve for a long time.",
+      "tr": "Bu lüks perde modern ev tasarımı için mükemmeldir. Yüksek kaliteli malzemelerden yapılmış ve uzun süre hizmet edecektir."
+    },
+    "image": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Ipak",
+      "ru": "Шелк",
+      "en": "Silk",
+      "tr": "İpek"
+    },
+    "price": "$299",
+    "category": "luxury"
+  },
+  {
+    "id": 2,
+    "title": {
+      "uz": "Minimalist Parda",
+      "ru": "Минималистская Штора",
+      "en": "Minimalist Curtain",
+      "tr": "Minimalist Perde"
+    },
+    "description": {
+      "uz": "Oddiy va zamonaviy dizayn",
+      "ru": "Простой и современный дизайн",
+      "en": "Simple and modern design",
+      "tr": "Basit ve modern tasarım"
+    },
+    "fullDescription": {
+      "uz": "Minimalist uslubni yaxshi ko'radiganlar uchun ideal tanlov. Bu parda har qanday interyerga mos keladi.",
+      "ru": "Идеальный выбор для тех, кто любит минималистичный стиль. Эта штора подходит к любому интерьеру.",
+      "en": "Perfect choice for those who love minimalist style. This curtain fits any interior.",
+      "tr": "Minimalist tarzı sevenler için mükemmel seçim. Bu perde herhangi bir iç mekana uyar."
+    },
+    "image": "https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Paxta",
+      "ru": "Хлопок",
+      "en": "Cotton",
+      "tr": "Pamuk"
+    },
+    "price": "$149",
+    "category": "modern"
+  },
+  {
+    "id": 3,
+    "title": {
+      "uz": "Klassik Parda",
+      "ru": "Классическая Штора",
+      "en": "Classic Curtain",
+      "tr": "Klasik Perde"
+    },
+    "description": {
+      "uz": "An'anaviy va nafis uslub",
+      "ru": "Традиционный и элегантный стиль",
+      "en": "Traditional and elegant style",
+      "tr": "Geleneksel ve zarif tarz"
+    },
+    "fullDescription": {
+      "uz": "Klassik interyerlarga mo'ljallangan. Nafis naqshlar va yuqori sifatli tikuv.",
+      "ru": "Предназначена для классических интерьеров. Элегантные узоры и высокое качество пошива.",
+      "en": "Designed for classic interiors. Elegant patterns and high-quality tailoring.",
+      "tr": "Klasik iç mekanlar için tasarlanmıştır. Zarif desenler ve yüksek kaliteli dikimi."
+    },
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Kadife",
+      "ru": "Бархат",
+      "en": "Velvet",
+      "tr": "Kadife"
+    },
+    "price": "$399",
+    "category": "classic"
+  },
+  {
+    "id": 4,
+    "title": {
+      "uz": "Zamonaviy Parda",
+      "ru": "Современная Штора",
+      "en": "Contemporary Curtain",
+      "tr": "Çağdaş Perde"
+    },
+    "description": {
+      "uz": "Hozirgi zamon tendensiyalari",
+      "ru": "Современные тенденции",
+      "en": "Modern trends",
+      "tr": "Modern trendler"
+    },
+    "fullDescription": {
+      "uz": "Eng so'nggi moda tendensiyalariga mos keladigan parda. Innovatsion materiallar ishlatilgan.",
+      "ru": "Штора, соответствующая последним модным тенденциям. Использованы инновационные материалы.",
+      "en": "Curtain that matches the latest fashion trends. Innovative materials used.",
+      "tr": "En son moda trendlerine uygun perde. Yenilikçi malzemeler kullanıldı."
+    },
+    "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Sintetik",
+      "ru": "Синтетика",
+      "en": "Synthetic",
+      "tr": "Sentetik"
+    },
+    "price": "$199",
+    "category": "contemporary"
+  },
+  {
+    "id": 5,
+    "title": {
+      "uz": "Romantik Parda",
+      "ru": "Романтическая Штора",
+      "en": "Romantic Curtain",
+      "tr": "Romantik Perde"
+    },
+    "description": {
+      "uz": "Yumshoq va romantik hissiyot",
+      "ru": "Мягкое и романтичное настроение",
+      "en": "Soft and romantic mood",
+      "tr": "Yumuşak ve romantik ruh hali"
+    },
+    "fullDescription": {
+      "uz": "Sevgi va issiqlik hissi uyg'otadigan parda. Yoqimli ranglar va yumshoq tekstura.",
+      "ru": "Штора, вызывающая чувство любви и тепла. Приятные цвета и мягкая текстура.",
+      "en": "Curtain that evokes feelings of love and warmth. Pleasant colors and soft texture.",
+      "tr": "Aşk ve sıcaklık duygularını uyandıran perde. Hoş renkler ve yumuşak doku."
+    },
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Len",
+      "ru": "Лен",
+      "en": "Linen",
+      "tr": "Keten"
+    },
+    "price": "$179",
+    "category": "romantic"
+  },
+  {
+    "id": 6,
+    "title": {
+      "uz": "Skandinav Parda",
+      "ru": "Скандинавская Штора",
+      "en": "Scandinavian Curtain",
+      "tr": "İskandinav Perde"
+    },
+    "description": {
+      "uz": "Skandinav uslubidagi oddiylik",
+      "ru": "Скандинавская простота",
+      "en": "Scandinavian simplicity",
+      "tr": "İskandinav sadeliği"
+    },
+    "fullDescription": {
+      "uz": "Skandinav dizayni prinsiplarini o'zida mujassamlashtirgan. Tabiiy materiallar va sodda chiziqlar.",
+      "ru": "Воплощает принципы скандинавского дизайна. Натуральные материалы и простые линии.",
+      "en": "Embodies the principles of Scandinavian design. Natural materials and simple lines.",
+      "tr": "İskandinav tasarım ilkelerini somutlaştırır. Doğal malzemeler ve basit çizgiler."
+    },
+    "image": "https://images.pexels.com/photos/1040893/pexels-photo-1040893.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Paxta",
+      "ru": "Хлопок",
+      "en": "Cotton",
+      "tr": "Pamuk"
+    },
+    "price": "$129",
+    "category": "scandinavian"
+  },
+  {
+    "id": 7,
+    "title": {
+      "uz": "Boho Parda",
+      "ru": "Богемская Штора",
+      "en": "Bohemian Curtain",
+      "tr": "Bohem Perde"
+    },
+    "description": {
+      "uz": "Bohemian uslubining erkin ruhi",
+      "ru": "Свободный дух богемного стиля",
+      "en": "Free spirit of bohemian style",
+      "tr": "Bohem tarzının özgür ruhu"
+    },
+    "fullDescription": {
+      "uz": "Ijodiy va erkin ruhni ifodalaydi. Boy ranglar va noyob naqshlar bilan bezatilgan.",
+      "ru": "Выражает творческий и свободный дух. Украшена богатыми цветами и уникальными узорами.",
+      "en": "Expresses creative and free spirit. Decorated with rich colors and unique patterns.",
+      "tr": "Yaratıcı ve özgür ruhu ifade eder. Zengin renkler ve benzersiz desenlerle süslenmiş."
+    },
+    "image": "https://images.pexels.com/photos/1080701/pexels-photo-1080701.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Ipak aralasmasi",
+      "ru": "Смесь шелка",
+      "en": "Silk blend",
+      "tr": "İpek karışımı"
+    },
+    "price": "$249",
+    "category": "bohemian"
+  },
+  {
+    "id": 8,
+    "title": {
+      "uz": "Industriya Parda",
+      "ru": "Индустриальная Штора",
+      "en": "Industrial Curtain",
+      "tr": "Endüstriyel Perde"
+    },
+    "description": {
+      "uz": "Qo'pol va zamonaviy uslub",
+      "ru": "Грубый и современный стиль",
+      "en": "Raw and modern style",
+      "tr": "Ham ve modern tarz"
+    },
+    "fullDescription": {
+      "uz": "Industrial dizayn uslubiga mo'ljallangan. Qattiq materiallar va geometrik shakllar.",
+      "ru": "Предназначена для индустриального дизайна. Жесткие материалы и геометрические формы.",
+      "en": "Designed for industrial design style. Hard materials and geometric shapes.",
+      "tr": "Endüstriyel tasarım tarzı için tasarlanmıştır. Sert malzemeler ve geometrik şekiller."
+    },
+    "image": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Canvas",
+      "ru": "Канвас",
+      "en": "Canvas",
+      "tr": "Kanvas"
+    },
+    "price": "$169",
+    "category": "industrial"
+  },
+  {
+    "id": 9,
+    "title": {
+      "uz": "Art Deco Parda",
+      "ru": "Штора Арт-деко",
+      "en": "Art Deco Curtain",
+      "tr": "Art Deco Perde"
+    },
+    "description": {
+      "uz": "1920-yillar uslubining nafosligi",
+      "ru": "Элегантность стиля 1920-х",
+      "en": "1920s style elegance",
+      "tr": "1920'ler tarzı zarafeti"
+    },
+    "fullDescription": {
+      "uz": "Art Deco uslubining barcha xususiyatlarini o'zida mujassamlashtirgan. Geometrik naqshlar va oltin ranglar.",
+      "ru": "Воплощает все особенности стиля Арт-деко. Геометрические узоры и золотые цвета.",
+      "en": "Embodies all the features of Art Deco style. Geometric patterns and golden colors.",
+      "tr": "Art Deco tarzının tüm özelliklerini somutlaştırır. Geometrik desenler ve altın renkler."
+    },
+    "image": "https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Brokad",
+      "ru": "Парча",
+      "en": "Brocade",
+      "tr": "Brokar"
+    },
+    "price": "$349",
+    "category": "artdeco"
+  },
+  {
+    "id": 10,
+    "title": {
+      "uz": "Tropik Parda",
+      "ru": "Тропическая Штора",
+      "en": "Tropical Curtain",
+      "tr": "Tropikal Perde"
+    },
+    "description": {
+      "uz": "Tropik o'simliklar naqshlari",
+      "ru": "Узоры тропических растений",
+      "en": "Tropical plant patterns",
+      "tr": "Tropikal bitki desenleri"
+    },
+    "fullDescription": {
+      "uz": "Tropik tabiat ilhomida yaratilgan. Yashil ranglar va o'simlik naqshlari bilan bezatilgan.",
+      "ru": "Создана под вдохновением тропической природы. Украшена зелеными цветами и растительными узорами.",
+      "en": "Created inspired by tropical nature. Decorated with green colors and plant patterns.",
+      "tr": "Tropikal doğadan ilham alınarak yaratılmıştır. Yeşil renkler ve bitki desenleriyle süslenmiş."
+    },
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Paxta",
+      "ru": "Хлопок",
+      "en": "Cotton",
+      "tr": "Pamuk"
+    },
+    "price": "$189",
+    "category": "tropical"
+  },
+  {
+    "id": 11,
+    "title": {
+      "uz": "Vintage Parda",
+      "ru": "Винтажная Штора",
+      "en": "Vintage Curtain",
+      "tr": "Vintage Perde"
+    },
+    "description": {
+      "uz": "Retro uslubining jozibasi",
+      "ru": "Очарование ретро стиля",
+      "en": "Charm of retro style",
+      "tr": "Retro tarzın cazibesi"
+    },
+    "fullDescription": {
+      "uz": "O'tmishning go'zalligini hozirgi zamonga olib keladi. Nostalgik ranglar va klassik naqshlar.",
+      "ru": "Привносит красоту прошлого в настоящее время. Ностальгические цвета и классические узоры.",
+      "en": "Brings the beauty of the past to the present. Nostalgic colors and classic patterns.",
+      "tr": "Geçmişin güzelliğini günümüze taşır. Nostaljik renkler ve klasik desenler."
+    },
+    "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Kadife",
+      "ru": "Бархат",
+      "en": "Velvet",
+      "tr": "Kadife"
+    },
+    "price": "$279",
+    "category": "vintage"
+  },
+  {
+    "id": 12,
+    "title": {
+      "uz": "Futuristik Parda",
+      "ru": "Футуристическая Штора",
+      "en": "Futuristic Curtain",
+      "tr": "Fütürist Perde"
+    },
+    "description": {
+      "uz": "Kelajak dizayni",
+      "ru": "Дизайн будущего",
+      "en": "Future design",
+      "tr": "Gelecek tasarımı"
+    },
+    "fullDescription": {
+      "uz": "Kelajakdagi interyerlarga mo'ljallangan. Innovatsion materiallar va noyob dizayn.",
+      "ru": "Предназначена для интерьеров будущего. Инновационные материалы и уникальный дизайн.",
+      "en": "Designed for future interiors. Innovative materials and unique design.",
+      "tr": "Geleceğin iç mekanları için tasarlanmıştır. Yenilikçi malzemeler ve benzersiz tasarım."
+    },
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Smart material",
+      "ru": "Умный материал",
+      "en": "Smart material",
+      "tr": "Akıllı malzeme"
+    },
+    "price": "$499",
+    "category": "futuristic"
+  },
+  {
+    "id": 13,
+    "title": {
+      "uz": "Mediterran Parda",
+      "ru": "Средиземноморская Штора",
+      "en": "Mediterranean Curtain",
+      "tr": "Akdeniz Perde"
+    },
+    "description": {
+      "uz": "Dengiz bo'yi uslubi",
+      "ru": "Средиземноморский стиль",
+      "en": "Mediterranean style",
+      "tr": "Akdeniz tarzı"
+    },
+    "fullDescription": {
+      "uz": "Dengiz bo'yining tinch muhitini uyga olib keladi. Ko'k va oq ranglar kombinatsiyasi.",
+      "ru": "Привносит спокойную атмосферу побережья в дом. Сочетание голубого и белого цветов.",
+      "en": "Brings the peaceful atmosphere of the coast to home. Combination of blue and white colors.",
+      "tr": "Kıyının huzurlu atmosferini eve getirir. Mavi ve beyaz renklerin kombinasyonu."
+    },
+    "image": "https://images.pexels.com/photos/1040893/pexels-photo-1040893.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Len",
+      "ru": "Лен",
+      "en": "Linen",
+      "tr": "Keten"
+    },
+    "price": "$159",
+    "category": "mediterranean"
+  },
+  {
+    "id": 14,
+    "title": {
+      "uz": "Eko Parda",
+      "ru": "Эко Штора",
+      "en": "Eco Curtain",
+      "tr": "Eko Perde"
+    },
+    "description": {
+      "uz": "Tabiatga do'stona material",
+      "ru": "Экологически чистый материал",
+      "en": "Eco-friendly material",
+      "tr": "Çevre dostu malzeme"
+    },
+    "fullDescription": {
+      "uz": "Tabiiy va ekologik toza materiallardan tayyorlangan. Atrof-muhitga zarar yetkazmaydi.",
+      "ru": "Изготовлена из натуральных и экологически чистых материалов. Не наносит вреда окружающей среде.",
+      "en": "Made from natural and eco-friendly materials. Does not harm the environment.",
+      "tr": "Doğal ve çevre dostu malzemelerden yapılmıştır. Çevreye zarar vermez."
+    },
+    "image": "https://images.pexels.com/photos/1080701/pexels-photo-1080701.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Organik paxta",
+      "ru": "Органический хлопок",
+      "en": "Organic cotton",
+      "tr": "Organik pamuk"
+    },
+    "price": "$219",
+    "category": "eco"
+  },
+  {
+    "id": 15,
+    "title": {
+      "uz": "Glamour Parda",
+      "ru": "Гламурная Штора",
+      "en": "Glamour Curtain",
+      "tr": "Glamour Perde"
+    },
+    "description": {
+      "uz": "Yorqin va hashamatli",
+      "ru": "Яркая и роскошная",
+      "en": "Bright and luxurious",
+      "tr": "Parlak ve lüks"
+    },
+    "fullDescription": {
+      "uz": "Yorqin va hashamatli hayot tarzini aks ettiradi. Kumush va oltin elementi bilan bezatilgan.",
+      "ru": "Отражает яркий и роскошный образ жизни. Украшена серебряными и золотыми элементами.",
+      "en": "Reflects bright and luxurious lifestyle. Decorated with silver and gold elements.",
+      "tr": "Parlak ve lüks yaşam tarzını yansıtır. Gümüş ve altın elementlerle süslenmiş."
+    },
+    "image": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Ipak + metalllar",
+      "ru": "Шелк + металлы",
+      "en": "Silk + metals",
+      "tr": "İpek + metaller"
+    },
+    "price": "$449",
+    "category": "glamour"
+  },
+  {
+    "id": 16,
+    "title": {
+      "uz": "Rustik Parda",
+      "ru": "Рустикальная Штора",
+      "en": "Rustic Curtain",
+      "tr": "Rustik Perde"
+    },
+    "description": {
+      "uz": "Qishloq uslubining issiqligi",
+      "ru": "Тепло деревенского стиля",
+      "en": "Warmth of country style",
+      "tr": "Kırsal tarzın sıcaklığı"
+    },
+    "fullDescription": {
+      "uz": "Qishloq hayotining soddaliği va issiqligi. Tabiiy ranglar va to'qima teksturasi.",
+      "ru": "Простота и тепло сельской жизни. Натуральные цвета и тканая текстура.",
+      "en": "Simplicity and warmth of rural life. Natural colors and woven texture.",
+      "tr": "Kırsal yaşamın sadeliği ve sıcaklığı. Doğal renkler ve dokuma doku."
+    },
+    "image": "https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Jun",
+      "ru": "Шерсть",
+      "en": "Wool",
+      "tr": "Yün"
+    },
+    "price": "$199",
+    "category": "rustic"
+  },
+  {
+    "id": 17,
+    "title": {
+      "uz": "Sharq Parda",
+      "ru": "Восточная Штора",
+      "en": "Oriental Curtain",
+      "tr": "Doğulu Perde"
+    },
+    "description": {
+      "uz": "Sharq madaniyati naqshlari",
+      "ru": "Узоры восточной культуры",
+      "en": "Eastern culture patterns",
+      "tr": "Doğu kültürü desenleri"
+    },
+    "fullDescription": {
+      "uz": "Sharq madaniyatining boy an'analarini aks ettiradi. Murakkab naqshlar va qizil ranglar.",
+      "ru": "Отражает богатые традиции восточной культуры. Сложные узоры и красные цвета.",
+      "en": "Reflects rich traditions of Eastern culture. Complex patterns and red colors.",
+      "tr": "Doğu kültürünün zengin geleneklerini yansıtır. Karmaşık desenler ve kırmızı renkler."
+    },
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Ipak",
+      "ru": "Шелк",
+      "en": "Silk",
+      "tr": "İpek"
+    },
+    "price": "$329",
+    "category": "oriental"
+  },
+  {
+    "id": 18,
+    "title": {
+      "uz": "Neoklassik Parda",
+      "ru": "Неоклассическая Штора",
+      "en": "Neoclassic Curtain",
+      "tr": "Neoklasik Perde"
+    },
+    "description": {
+      "uz": "Klassik va zamonaviylikning uyg'unligi",
+      "ru": "Гармония классики и современности",
+      "en": "Harmony of classic and modern",
+      "tr": "Klasik ve modernin uyumu"
+    },
+    "fullDescription": {
+      "uz": "Klassik neoklassik uslubning zamonaviy talqini. Nafis chiziqlar va zamonaviy materiallar.",
+      "ru": "Современная интерпретация классического неоклассического стиля. Изящные линии и современные материалы.",
+      "en": "Modern interpretation of classic neoclassical style. Elegant lines and modern materials.",
+      "tr": "Klasik neoklasik tarzın modern yorumu. Zarif çizgiler ve modern malzemeler."
+    },
+    "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Ipak aralasmasi",
+      "ru": "Смесь шелка",
+      "en": "Silk blend",
+      "tr": "İpek karışımı"
+    },
+    "price": "$299",
+    "category": "neoclassic"
+  },
+  {
+    "id": 19,
+    "title": {
+      "uz": "Shabby Chic Parda",
+      "ru": "Штора Шебби Шик",
+      "en": "Shabby Chic Curtain",
+      "tr": "Shabby Chic Perde"
+    },
+    "description": {
+      "uz": "Shabby chic uslubining romantikasi",
+      "ru": "Романтика стиля шебби шик",
+      "en": "Romance of shabby chic style",
+      "tr": "Shabby chic tarzının romantikliği"
+    },
+    "fullDescription": {
+      "uz": "Romantik va nazok shabby chic uslubida. Yumshoq ranglar va gul naqshlari.",
+      "ru": "В романтичном и нежном стиле шебби шик. Мягкие цвета и цветочные узоры.",
+      "en": "In romantic and delicate shabby chic style. Soft colors and floral patterns.",
+      "tr": "Romantik ve narin shabby chic tarzında. Yumuşak renkler ve çiçek desenleri."
+    },
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Paxta",
+      "ru": "Хлопок",
+      "en": "Cotton",
+      "tr": "Pamuk"
+    },
+    "price": "$179",
+    "category": "shabby"
+  },
+  {
+    "id": 20,
+    "title": {
+      "uz": "Hi-tech Parda",
+      "ru": "Хай-тек Штора",
+      "en": "Hi-tech Curtain",
+      "tr": "Hi-tech Perde"
+    },
+    "description": {
+      "uz": "Texnologik innovatsiyalar",
+      "ru": "Технологические инновации",
+      "en": "Technological innovations",
+      "tr": "Teknolojik yenilikler"
+    },
+    "fullDescription": {
+      "uz": "Eng so'nggi texnologiyalar qo'llanilgan. Aqlli boshqaruv va energiya tejash.",
+      "ru": "Применены самые современные технологии. Умное управление и энергосбережение.",
+      "en": "Latest technologies applied. Smart control and energy saving.",
+      "tr": "En son teknolojiler uygulandı. Akıllı kontrol ve enerji tasarrufu."
+    },
+    "image": "https://images.pexels.com/photos/1040893/pexels-photo-1040893.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Smart tekstil",
+      "ru": "Умный текстиль",
+      "en": "Smart textile",
+      "tr": "Akıllı tekstil"
+    },
+    "price": "$599",
+    "category": "hitech"
+  },
+  {
+    "id": 21,
+    "title": {
+      "uz": "Provence Parda",
+      "ru": "Провансская Штора",
+      "en": "Provence Curtain",
+      "tr": "Provence Perde"
+    },
+    "description": {
+      "uz": "Fransuz qishlog'ining jozibasi",
+      "ru": "Очарование французской деревни",
+      "en": "Charm of French countryside",
+      "tr": "Fransız kırsalının cazibesi"
+    },
+    "fullDescription": {
+      "uz": "Provence uslubining barcha go'zalliklarini o'zida mujassamlashtirgan. Lavanda ranglari va gul naqshlari.",
+      "ru": "Воплощает всю красоту стиля Прованс. Лавандовые цвета и цветочные узоры.",
+      "en": "Embodies all the beauty of Provence style. Lavender colors and floral patterns.",
+      "tr": "Provence tarzının tüm güzelliklerini somutlaştırır. Lavanta renkleri ve çiçek desenleri."
+    },
+    "image": "https://images.pexels.com/photos/1080701/pexels-photo-1080701.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Len",
+      "ru": "Лен",
+      "en": "Linen",
+      "tr": "Keten"
+    },
+    "price": "$169",
+    "category": "provence"
+  },
+  {
+    "id": 22,
+    "title": {
+      "uz": "Urban Parda",
+      "ru": "Городская Штора",
+      "en": "Urban Curtain",
+      "tr": "Kentsel Perde"
+    },
+    "description": {
+      "uz": "Shahar hayotining dinamikasi",
+      "ru": "Динамика городской жизни",
+      "en": "Dynamics of city life",
+      "tr": "Şehir hayatının dinamikleri"
+    },
+    "fullDescription": {
+      "uz": "Shahar hayotining tez sur'ati va zamonaviyligini aks ettiradi. Kulrang ranglar va geometrik shakllar.",
+      "ru": "Отражает быстрый темп и современность городской жизни. Серые цвета и геометрические формы.",
+      "en": "Reflects the fast pace and modernity of city life. Gray colors and geometric shapes.",
+      "tr": "Şehir hayatının hızlı temposunu ve modernliğini yansıtır. Gri renkler ve geometrik şekiller."
+    },
+    "image": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Standard",
+    "material": {
+      "uz": "Sintetik",
+      "ru": "Синтетика",
+      "en": "Synthetic",
+      "tr": "Sentetik"
+    },
+    "price": "$139",
+    "category": "urban"
+  },
+  {
+    "id": 23,
+    "title": {
+      "uz": "Barok Parda",
+      "ru": "Барочная Штора",
+      "en": "Baroque Curtain",
+      "tr": "Barok Perde"
+    },
+    "description": {
+      "uz": "Barok uslubining dabdabasi",
+      "ru": "Роскошь барочного стиля",
+      "en": "Luxury of baroque style",
+      "tr": "Barok tarzın lüksü"
+    },
+    "fullDescription": {
+      "uz": "Barok uslubining barcha dabdabasi va nafosligi. Oltin naqshlar va boy materiallar.",
+      "ru": "Вся роскошь и изящество барочного стиля. Золотые узоры и богатые материалы.",
+      "en": "All the luxury and elegance of baroque style. Golden patterns and rich materials.",
+      "tr": "Barok tarzının tüm lüksü ve zarafeti. Altın desenler ve zengin malzemeler."
+    },
+    "image": "https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Brokad",
+      "ru": "Парча",
+      "en": "Brocade",
+      "tr": "Brokar"
+    },
+    "price": "$449",
+    "category": "baroque"
+  },
+  {
+    "id": 24,
+    "title": {
+      "uz": "Eklektik Parda",
+      "ru": "Эклектичная Штора",
+      "en": "Eclectic Curtain",
+      "tr": "Eklektik Perde"
+    },
+    "description": {
+      "uz": "Turli uslublarning uyg'unligi",
+      "ru": "Гармония различных стилей",
+      "en": "Harmony of different styles",
+      "tr": "Farklı tarzların uyumu"
+    },
+    "fullDescription": {
+      "uz": "Turli uslublarning eng yaxshi tomonlarini birlashtirgan. Noyob va ijodiy yondashuv.",
+      "ru": "Сочетает лучшие стороны различных стилей. Уникальный и творческий подход.",
+      "en": "Combines the best aspects of different styles. Unique and creative approach.",
+      "tr": "Farklı tarzların en iyi yönlerini birleştirir. Eşsiz ve yaratıcı yaklaşım."
+    },
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Premium",
+    "material": {
+      "uz": "Aralash materiallar",
+      "ru": "Смешанные материалы",
+      "en": "Mixed materials",
+      "tr": "Karışık malzemeler"
+    },
+    "price": "$279",
+    "category": "eclectic"
+  },
+  {
+    "id": 25,
+    "title": {
+      "uz": "Maxsus Parda",
+      "ru": "Особенная Штора",
+      "en": "Special Curtain",
+      "tr": "Özel Perde"
+    },
+    "description": {
+      "uz": "Sizning xohishingiz bo'yicha",
+      "ru": "По вашему желанию",
+      "en": "According to your wish",
+      "tr": "İsteğiniz doğrultusunda"
+    },
+    "fullDescription": {
+      "uz": "Mijozning individual talablari asosida tayyorlanadi. Har qanday uslub va materialda ishlab chiqish mumkin.",
+      "ru": "Изготавливается на основе индивидуальных требований клиента. Можно изготовить в любом стиле и материале.",
+      "en": "Made based on individual customer requirements. Can be manufactured in any style and material.",
+      "tr": "Müşterinin bireysel gereksinimlerine göre hazırlanır. Her tarzda ve malzemede üretilebilir."
+    },
+    "image": "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "quality": "Custom",
+    "material": {
+      "uz": "Tanlaganingizcha",
+      "ru": "По выбору",
+      "en": "Your choice",
+      "tr": "Seçiminize göre"
+    },
+    "price": "$Custom",
+    "category": "custom"
+  }
+]
