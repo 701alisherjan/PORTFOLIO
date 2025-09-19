@@ -42,7 +42,6 @@ const CardDetails: React.FC = () => {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex flex-col md:flex-row h-full">
-          {/* Image Section */}
           <div className="md:w-1/2 relative">
             <img
               src={selectedCard.image}
@@ -51,7 +50,6 @@ const CardDetails: React.FC = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             
-            {/* Close Button */}
             <Button
               variant="ghost"
               size="sm"
@@ -62,10 +60,8 @@ const CardDetails: React.FC = () => {
             </Button>
           </div>
 
-          {/* Content Section */}
           <div className="md:w-1/2 p-6 md:p-8 overflow-y-auto">
             <div className="space-y-6">
-              {/* Header */}
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">
                   {selectedCard.title[currentLanguage]}
@@ -83,12 +79,10 @@ const CardDetails: React.FC = () => {
                 </div>
               </div>
 
-              {/* Price */}
               <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">
                 {selectedCard.price}
               </div>
 
-              {/* Details */}
               <div className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
@@ -110,7 +104,6 @@ const CardDetails: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Description */}
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
                     Description
@@ -120,7 +113,6 @@ const CardDetails: React.FC = () => {
                   </p>
                 </div>
 
-                {/* Action Buttons */}
                 <div className="flex space-x-4 pt-6">
                   <Button
                     onClick={handleFavoriteToggle}

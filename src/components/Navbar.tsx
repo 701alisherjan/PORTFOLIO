@@ -95,9 +95,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
             ))}
           </div>
 
-          {/* Right Side Controls */}
           <div className="flex items-center space-x-4">
-            {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="h-9 w-9 p-0">
@@ -117,7 +115,6 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            {/* Theme Toggle */}
             <Button
               variant="ghost"
               size="sm"
@@ -131,7 +128,6 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
               )}
             </Button>
 
-            {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
               size="sm"
@@ -143,7 +139,6 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection }) => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}

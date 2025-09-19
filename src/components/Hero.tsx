@@ -12,9 +12,7 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-white dark:from-gray-900 dark:via-purple-900/20 dark:to-gray-800">
-      {/* Background Elements */}
       <div className="absolute inset-0">
-        {/* Floating shapes */}
         {[...Array(6)].map((_, i) => (
           <motion.div
             key={i}
@@ -38,7 +36,6 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,7 +48,6 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
             </span>
           </motion.div>
 
-          {/* Main Title */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -63,7 +59,6 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
             </span>
           </motion.h1>
 
-          {/* Subtitle */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -73,7 +68,6 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
             {t('heroSubtitle')}
           </motion.p>
 
-          {/* CTA Button */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -91,7 +85,6 @@ const Hero: React.FC<HeroProps> = ({ onViewCards }) => {
             </Button>
           </motion.div>
 
-          {/* Decorative elements */}
           <div className="mt-20 flex justify-center space-x-8 opacity-60">
             {[...Array(3)].map((_, i) => (
               <motion.div

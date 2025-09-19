@@ -53,10 +53,8 @@ const Card: React.FC<CardProps> = ({ card }) => {
         className="relative w-full h-full preserve-3d transition-transform duration-700"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
       >
-        {/* Front of card */}
         <div className="absolute inset-0 w-full h-full backface-hidden rounded-xl overflow-hidden bg-white dark:bg-gray-800 shadow-lg">
           <div className="flex h-full">
-            {/* Image */}
             <div className="w-1/2 relative">
               <img
                 src={card.image}
@@ -66,7 +64,6 @@ const Card: React.FC<CardProps> = ({ card }) => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/10" />
             </div>
             
-            {/* Content */}
             <div className="w-1/2 p-6 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">
@@ -102,7 +99,6 @@ const Card: React.FC<CardProps> = ({ card }) => {
           </div>
         </div>
 
-        {/* Back of card */}
         <div className="absolute inset-0 w-full h-full backface-hidden rounded-xl overflow-hidden bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 shadow-lg rotate-y-180">
           <div className="p-6 h-full flex flex-col justify-between">
             <div>
