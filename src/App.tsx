@@ -14,6 +14,7 @@ import Favorites from './components/Favorites';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
 import './i18n';
+import Footer from './components/Footer';
 
 const AppContent: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -57,12 +58,10 @@ const AppContent: React.FC = () => {
     <div className="relative">
       <Navbar activeSection={activeSection} setActiveSection={scrollToSection} />
       
-      {/* Home Section */}
       <section id="home">
         <Hero onViewCards={handleViewCards} />
       </section>
 
-      {/* Preview Cards Section (on Home) */}
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -100,7 +99,6 @@ const AppContent: React.FC = () => {
         </div>
       </section>
 
-      {/* All Cards Section */}
       <section id="cards" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -123,20 +121,18 @@ const AppContent: React.FC = () => {
         </div>
       </section>
 
-      {/* About Section */}
       <section id="about">
         <About />
       </section>
 
-      {/* Favorites Section */}
       <section id="favorites">
         <Favorites />
       </section>
 
-      {/* Card Details Modal */}
       <AnimatePresence>
         {selectedCard && <CardDetails />}
       </AnimatePresence>
+      <Footer/>
     </div>
   );
 };
