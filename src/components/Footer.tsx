@@ -3,7 +3,7 @@ import { FaInstagram, FaTelegram, FaPhone, FaMapMarkerAlt, FaEnvelope } from "re
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-200 py-10">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl  px-4 grid grid-cols-1 ml-[300px]  mx-auto md:grid-cols-4 gap-16">
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">Parda Style</h2>
           <p className="text-sm">
