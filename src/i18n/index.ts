@@ -10,7 +10,7 @@ const resources = {
       favorites: 'Sevimlilar',
       
       heroTitle: 'Eng Ajoyib Pardalar',
-      heroSubtitle: 'Uyingiz uchun mukammal pardalar topganing',
+      heroSubtitle: 'Uyingiz uchun mukammal pardalar toping',
       viewAllCards: 'Barcha kartalarni ko\'rish',
       
       viewDetails: 'Batafsil ko\'rish',

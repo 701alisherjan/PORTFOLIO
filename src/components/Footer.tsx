@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-200 py-10">
       <div className="max-w-7xl  px-4 grid grid-cols-1 ml-[300px]  mx-auto md:grid-cols-4 gap-16">
         <div>
-          <h2 className="text-2xl font-bold text-white mb-4">Parda Style</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">Marjona Fashion</h2>
           <p className="text-sm">
             “Parda Style” – zamonaviy va klassik pardalar, jalyuzlar va turli turdagi dekorlar.
             Sizning uyingizni yanada chiroyli qilish uchun sifatli mahsulotlar va xizmatlar.
@@ -16,10 +16,10 @@ export default function Footer() {
           <h3 className="text-xl font-semibold text-white mb-4">Bog‘lanish</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
-              <FaMapMarkerAlt /> Toshkent sh., Chilonzor 12-kv
+              <FaMapMarkerAlt /> Jizzax viloyati Zarbdor tumani
             </li>
             <li className="flex items-center gap-2">
-              <FaPhone /> +998 90 123 45 67
+              <FaPhone /> +998 33 408 8998
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope /> info@pardastyle.uz
@@ -30,10 +30,10 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-white mb-4">Bizni kuzating</h3>
           <div className="flex space-x-4 mb-4">
-            <a href="https://instagram.com/yourpage" target="_blank" rel="noreferrer" className="hover:text-pink-500">
+            <a href="https://instagram.com/Marjona_fashion" target="_blank" rel="noreferrer" className="hover:text-pink-500">
               <FaInstagram size={28} />
             </a>
-            <a href="https://t.me/yourchannel" target="_blank" rel="noreferrer" className="hover:text-blue-400">
+            <a href="https://t.me/" target="_blank" rel="noreferrer" className="hover:text-blue-400">
               <FaTelegram size={28} />
             </a>
           </div>
